@@ -65,7 +65,7 @@ section {
 }
 
 .section-bg {
-  background-color: #E1E0E0;
+  background-color: #ffc732;
 }
 
 .section-header {
@@ -77,7 +77,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   position: relative;
-  color: #2e3135;
+  color: hsl(0, 0%, 100%);
 }
 
 .section-header h2:before,
@@ -99,6 +99,7 @@ section {
 
 .section-header p {
   margin: 0 auto 0 auto;
+  color: hsl(0, 0%, 100%);
 }
 
 @media (min-width: 1199px) {
@@ -690,6 +691,17 @@ section {
     transform: rotate(360deg);
   }
 }
+.parallax {
+
+  min-height: 500px; 
+
+  background-attachment: calc();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   display: flex;
+
+}
 
 /*--------------------------------------------------------------
 # Constructions Section
@@ -754,7 +766,7 @@ section {
   content: "";
   height: 100%;
   width: 100%;
-  background: #f0f1f2;
+  background: #1e5791;
   border-radius: 50px;
   z-index: 1;
   top: 10px;

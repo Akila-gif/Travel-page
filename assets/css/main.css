@@ -2595,11 +2595,23 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Review
+--------------------------------------------------------------*/
+.review-button{
+  color:black; font-family: 'Akaya Kanadaka';font-size: 22px; border: 4px solid black; border-radius: 10px; padding: 10px;
+}
+.review-button:hover{
+  background-color: #ffc019;
+  color: white;
+}
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/places_in_sri_lanka/sigiriya/sigiriya03.jpg") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;

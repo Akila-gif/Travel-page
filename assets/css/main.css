@@ -1264,21 +1264,21 @@ section {
   color: var(--color-primary);
 }
 
-.about .watch-video i {
+.about .social-media i {
   font-size: 32px;
   transition: 0.3s;
-  color: var(--color-primary);
+  color: #000000;
 }
 
-.about .watch-video a {
+.about .social-media a {
   font-weight: 600;
   color: var(--color-secondary);
   margin-left: 8px;
   transition: 0.3s;
 }
 
-.about .watch-video:hover a {
-  color: var(--color-primary);
+.about .social-media:hover a {
+  color: #0dcaf0;
 }
 
 .about .about-img {

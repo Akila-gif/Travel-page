@@ -32,6 +32,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -743,7 +746,7 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .section-bg-service {
-  background-color: var(--color-secondary);
+  background-color: #122025;
 }
 
 .services .service-item {

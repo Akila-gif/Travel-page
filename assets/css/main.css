@@ -742,6 +742,10 @@ section {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.section-bg-service {
+  background-color: var(--color-secondary);
+}
+
 .services .service-item {
   padding: 40px;
   background: #fff;
